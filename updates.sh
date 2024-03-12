@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-printf("\n")
+echo ""
 /usr/bin/figlet "Checking for updates..." | /usr/games/cowsay -f tux -n | lolcat -a -s 400
 sudo apt update
 
@@ -16,6 +16,6 @@ sudo apt full-upgrade -y
 /usr/bin/figlet "Cleaning up (2/2)..." | /usr/games/cowsay -f tux -n | lolcat -a -s 400
 sudo apt autoremove -y
 
-printf("\n")
+echo ""
 /usr/bin/neofetch
 exit
