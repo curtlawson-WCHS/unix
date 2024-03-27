@@ -1,0 +1,14 @@
+##
+## a burger
+##
+$the_cow = <<EOC;
+     $thoughts
+      $thoughts
+  __________________
+ /                  \\
+(____________________)
+{_.-'-._.-'-._.-'-.__}
+:MMM\_/MMMMMMMMMMMMMMM:
+:MMMMMMMMMMMMMMM\_/MMM:
+\\____________________/
+EOC
