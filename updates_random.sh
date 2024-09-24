@@ -1,5 +1,5 @@
 #!/bin/bash
-directory = "/usr/share/cowsay/cow"
+directory = "/usr/share/cowsay/cows"
 selected_file = $(ls "$directory" | shuf -n 1)
 modified_file = "${selected_file::-4}"
 clear
