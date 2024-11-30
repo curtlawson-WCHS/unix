@@ -7,15 +7,19 @@ echo ""
 /usr/bin/figlet "Checking for updates..." | /usr/games/cowsay -f $selected_file -n | lolcat -a -s 400
 sudo apt update
 
+echo ""
 /usr/bin/figlet "Installing updates..." | /usr/games/cowsay -f $selected_file -n | lolcat -a -s 400
 sudo apt upgrade -y
 
+echo ""
 /usr/bin/figlet "Cleaning up (1/2)..." | /usr/games/cowsay -f $selected_file -n | lolcat -a -s 400
 sudo apt autoremove -y
 
+echo ""
 /usr/bin/figlet "Running upgrade..." | /usr/games/cowsay -f $selected_file -n | lolcat -a -s 400
 sudo apt full-upgrade -y
 
+echo ""
 /usr/bin/figlet "Cleaning up (2/2)..." | /usr/games/cowsay -f $selected_file -n | lolcat -a -s 400
 sudo apt autoremove -y
 
